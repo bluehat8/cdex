@@ -1,0 +1,436 @@
+.socialMediaLinksChild {
+
+  position: relative;
+  background-color: var(--color-lavender-200);
+  display: none;
+  max-width: 100%;
+}
+.helpCenterFrameChild {
+  height:45rem;
+  width: 45rem;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.contactUs {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.useTheForm {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+}
+.input{
+  width: 100% !important;
+  display: block;
+  background: #f3f3f3;
+  padding: 20px;
+  border: none;
+  margin-bottom: 15px;
+}
+.textarea{
+  resize: none;
+  height: 215 px;
+  margin-bottom: 50px;
+}
+.button{
+  height: 70px;
+  width: 50%;
+  display: block;
+  color: var(--color-white);
+  background: #5380EA; 
+  text-decoration: none;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.name{
+  width: 450px;
+}
+.button:hover{
+  /* background: var(--color-dadgerblue); */
+  /* color: var(--color-dadgerblue); */
+  box-shadow: 0px 0px 10px #5380EA;
+}
+.footerBase,
+.riskMitigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.riskMitigation {
+  width: 441px;
+  gap: 14px 0;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-poppins);
+}
+.footerBase {
+  align-self: stretch;
+  gap: 29px 0;
+}
+.submit {
+  position: relative;
+}
+.submitButton,
+.vectorXInstagram {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorXInstagram {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-dodgerblue);
+  box-shadow: 0 10px 34px rgba(83, 128, 234, 0.5);
+  border: 1px solid var(--color-dodgerblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-52xl);
+  color: var(--color-white);
+}
+.submitButton {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: var(--s2);
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-16xl);
+  gap: 49px 0;
+  z-index: 1;
+}
+.contactUsFrame,
+.helpCenterFrame,
+.submitButton {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUsFrame {
+  width: 549px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 20.199999999999815px;
+  min-width: 549px;
+}
+.helpCenterFrame {
+  width: 1387px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+}
+.footerChild {
+  height: 225px;
+  width: 1926px;
+  position: relative;
+  background-color: var(--color-gray-400);
+  display: none;
+  max-width: 100%;
+}
+.socialMedia {
+  height: 27px;
+  line-height: 130.9%;
+  display: flex;
+  align-items: center;
+}
+.discord,
+.skillIconsDiscord11,
+.socialMedia {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.skillIconsDiscord11 {
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+  object-fit: cover;
+  min-height: 30px;
+}
+.discord {
+  align-self: stretch;
+  height: 27px;
+  line-height: 130.9%;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.discordIcon,
+.socialMediaIcons {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialMediaIcons {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.discordIcon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 14px;
+}
+.discordLogoIcon,
+.x {
+  position: relative;
+  z-index: 1;
+}
+.discordLogoIcon {
+  height: 31px;
+  width: 30px;
+  min-height: 31px;
+}
+.x {
+  align-self: stretch;
+  height: 26px;
+  line-height: 130.9%;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.emailAddressForm,
+.instagramLogo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instagramLogo {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.emailAddressForm {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 14px;
+}
+.instagram,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 31px;
+  width: 30px;
+  min-height: 31px;
+}
+.instagram {
+  align-self: stretch;
+  height: 27px;
+  line-height: 130.9%;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.emailAddressForm1,
+.instagramWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instagramWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.emailAddressForm1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 14px;
+}
+.vectorXInstagram1 {
+  align-self: stretch;
+  gap: 15px 0;
+}
+.discordLink,
+.socialMediaFrame,
+.vectorXInstagram1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discordLink {
+  align-self: stretch;
+  gap: 18px 0;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-200);
+}
+.socialMediaFrame {
+  width: 134px;
+  gap: 13px 0;
+}
+.aboutUs,
+.contactUs1,
+.helpCenter,
+.support {
+  height: 27px;
+  position: relative;
+  line-height: 130.9%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.aboutUs,
+.contactUs1,
+.helpCenter {
+  align-self: stretch;
+  font-weight: 300;
+}
+.aboutUs,
+.contactUs1 {
+  height: 26px;
+}
+.aboutUs {
+  height: 27px;
+}
+.contactUsFrame1,
+.supportFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactUsFrame1 {
+  align-self: stretch;
+  gap: 20.5px 0;
+  font-size: var(--font-size-mini);
+}
+.supportFrame {
+  width: 137px;
+  gap: 15px 0;
+  color: var(--color-gray-200);
+}
+.footer,
+.socialMediaLinks {
+  display: inline-grid;
+  justify-content: space-around;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+
+.footer {
+  display: inline-flex;
+  margin-left: -253px;
+  width: 1926px;
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-9xl) var(--padding-302xl) var(--padding-13xl);
+  gap: var(--gap-475xl);
+  max-width: 115%;
+  flex-shrink: 0;
+  z-index: 1;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.socialMediaLinks {
+  align-self: stretch;
+  background-color: var(--color-lavender-200);
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  padding: 100px 0px 100px 2dvh;
+  color: var(--color-dodgerblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1575px) {
+  .contactUsFrame,
+  .helpCenterFrameChild {
+    flex: 1;
+  }
+ 
+  .helpCenterFrameChild{
+    height: 35rem;
+
+    margin-bottom: 20px;
+  }
+  .footer,
+  .helpCenterFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .footer {
+    gap: var(--gap-228xl);
+    padding-left: var(--padding-141xl);
+    padding-right: var(--padding-141xl);
+    box-sizing: border-box;
+  }
+  .socialMediaLinks {
+    display: inline-flex;
+    gap: 161px 0;
+    /* padding-left: var(--padding-104xl); */
+    padding-top: var(--padding-107xl);
+    box-sizing: border-box;
+  }
+
+  .helpCenterFrameChild{
+    height: 30rem;
+    top: 0;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .contactUs {
+    font-size: var(--font-size-10xl);
+  }
+  .helpCenterFrameChild{
+    height: 20rem;
+    margin-bottom: 20px;
+  }
+  .submitButton {
+    gap: 24px 0;
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .contactUsFrame {
+    min-width: 100%;
+  }
+  .footer {
+    gap: var(--gap-104xl);
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .socialMediaLinks {
+    gap: 81px 0;
+    /* padding-left: var(--padding-42xl); */
+    padding-top: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs {
+    font-size: var(--font-size-3xl);
+  }
+  .footer,
+  .socialMediaLinks {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-43xl);
+    padding-right: var(--padding-xl);
+  }
+  .socialMediaLinks {
+    gap: 40px 0;
+  }
+}

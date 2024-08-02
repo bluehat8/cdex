@@ -1,0 +1,32 @@
+.span {
+  color: var(--color-tomato-100);
+}
+.enterYourName,
+.name {
+  position: relative;
+  font-weight: 500;
+}
+.emailAddress,
+.enterYourNameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enterYourNameWrapper {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lavender-300);
+  flex-direction: row;
+  padding: var(--padding-base);
+  white-space: nowrap;
+  color: var(--color-darkgray);
+}
+.emailAddress {
+  flex-direction: column;
+  gap: 8px 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

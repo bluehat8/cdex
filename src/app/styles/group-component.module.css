@@ -1,0 +1,129 @@
+
+.walletLink {
+  background: linear-gradient(to right, #FFD700, #FFA500) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.poppinsFont{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.fRAMEHome {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-100);
+}
+.logo1Icon,
+.wallet {
+  position: relative;
+  z-index: 1;
+}
+.logo1Icon {
+  height: 60px;
+  width: 65px;
+  object-fit: cover;
+}
+.wallet {
+  align-self: stretch;
+  line-height: 89.9%;
+  font-weight: 800;
+  background: linear-gradient(#f0ea24, #f0ea24), #ebf0ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0.1px 0 0#000, 0 0.1px 0#000, -0.1px 0 0#000, 0-0.1px 0#000;
+  white-space: nowrap;
+}
+.groupHomeAboutusContactus {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-inter);
+}
+.aboutUs,
+.contactUs,
+.home {
+  width: 95px;
+  position: relative;
+  line-height: 89.9%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.aboutUs,
+.contactUs {
+  width: 140.5px;
+  white-space: nowrap;
+}
+.contactUs {
+  width: 174.2px;
+}
+.wALLETFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.contactusFrame,
+.fRAMEHomeParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactusFrame {
+  width: 760.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 23.799999999999955px 0 0;
+}
+.fRAMEHomeParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25.600000000000023px var(--padding-41xl) 17.19999999999999px
+    129.80000000000018px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1275px) {
+  .wALLETFrame {
+    display: none;
+  }
+  .contactusFrame {
+    width: 0;
+  }
+  .fRAMEHomeParent {
+    padding-left: var(--padding-46xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .fRAMEHomeParent {
+    padding-left: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}

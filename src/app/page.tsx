@@ -1,95 +1,97 @@
-import Image from "next/image";
+import type { NextPage } from "next";
+import Header from "./components/header";
+import RisksMitigationFrame from "./components/banner";
+import FooterFrame from "./components/footer-frame";
+import BuildSystematizeRectangles from "./components/build-systematize-rectangles";
+import SocialMediaLinks from "./components/social-media-links";
 import styles from "./page.module.css";
+import Footer from "./components/footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Home() {
+
+const RWAdrops: NextPage = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+    <Header />
+
+    <div className={styles.rwadrops}>
+
+      <section className={styles.headerFrame}>
+        <div className={styles.logoFrame}>
+          <div className={styles.logoFrameChild} />
+          <RisksMitigationFrame />
         </div>
-      </div>
+      </section>
+      <FooterFrame />
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+<section className={styles.riskMitigationRectangle}>
+<div className="row">
+  <div className="col-12 col-md-6">
+    <div className={styles.mitigateRisksToSecurityAndWrapper}>
+    <h1 className={styles.mitigateRisksToContainer}>
+            <span>
+              <span className={styles.m}>m</span>
+            </span>
+            <span className={styles.itigateRisksToSecurityAnd}>
+              <span>{`itigate risks to security and compliance with `}</span>
+              <span className={styles.rwadrops1}>CDEX</span>
+              <span>, the blockchain purpose-built for real-world assets</span>
+            </span>
+          </h1>
+    </div>
+  </div>
+  <div className="col-12 col-md-6">
+    <img 
+    className={`${styles.whyChooseUsFrame} w-100`}
+    src="/rectangle-63@2x.png"
+    />
+  </div>
+</div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+</section>
+      <section className={styles.footerFrame}>
+        <div className={styles.realworldAssetsInfoParent}>
+          <div className={styles.realworldAssetsInfo}>
+            <h2 className={styles.whyChooseUs}>Why choose us
+            <div className={styles.line}></div>
+            </h2>
+          </div>
+          <div className={styles.contenedor1}>
+            <div className={styles.box}>
+              <span></span>
+              <div className={styles.content}>
+                <h2>WE: </h2>
+                <p>Crafted a vertical solution for commodities trading. -From seed to delivered product</p> 
+              </div>
+            </div>
+            <div className={styles.box}>
+              <span></span>
+              <div className={styles.content}>
+                <h2>YOU: </h2>
+                <p>Get all the benefits. -Invest into supply chains and win big with products</p>
+              </div>
+            </div>
+          </div>
+          {/* <div className={styles.contactForm}>
+            <BuildSystematizeRectangles
+              wE="WE:"
+              buildRWABasedFinancialEng="Build RWA based financial engines and systematize them for growth"
+            />
+            <BuildSystematizeRectangles
+              wE="YOU:"
+              buildRWABasedFinancialEng="Hold  RWA-NFTs, get recurring income, and help bring in the metaverse of finance"
+            />
+          </div> */}
+        </div>
+      </section>
+      <SocialMediaLinks />
+    </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+    <Footer/>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </>
   );
-}
+};
+
+export default RWAdrops;
