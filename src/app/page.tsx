@@ -87,9 +87,9 @@ const RWAdrops: NextPage = () => {
       </section>
       <SocialMediaLinks />
     </div>
-
+    
     <Footer/>
-
+            
     </>
   );
 };

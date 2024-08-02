@@ -38,7 +38,7 @@ const SocialMediaLinks: NextPage = () => {
           className={styles.helpCenterFrameChild}
           loading="lazy"
           alt=""
-          src="/group-81.svg"
+          src="/form.svg"
         />
         <div className={styles.contactUsFrame}>
           <div className={styles.submitButton}>

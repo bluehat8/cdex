@@ -16,7 +16,7 @@ const GroupComponent: NextPage = () => {
               className={`mr-2 ${styles.logo1Icon}`}
               loading="lazy"
               alt=""
-              src="/Icono-CDEX.svg"
+              src="Icono-CDEX.svg"
             />
             <span className={`d-sm-inline`} style={{marginTop: "8px"}}>
               CDEX

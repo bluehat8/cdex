@@ -21,13 +21,13 @@ const FooterFrame: NextPage = () => {
                 <img
                   className={styles.subtractIcon}
                   alt=""
-                  src="/subtract.svg"
+                  src="/worldline.svg"
                 />
                 <img
                   className={styles.ai4Icon}
                   loading="lazy"
                   alt=""
-                  src="/6763ai-4@2x.png"
+                  src="/world.png"
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const FooterFrame: NextPage = () => {
             className="undrawCityGirlCcpd1Icon img-fluid"
             loading="lazy"
             alt=""
-            src="/undraw_container_ship_re_alm4.svg"
+            src="/container.svg"
           />
         </div>
       </div>
