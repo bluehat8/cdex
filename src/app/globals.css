@@ -127,3 +127,148 @@ body {
   /* Effects */
   --s2: 0px 34px 44px -20px rgba(185, 206, 234, 0.25);
 }
+
+
+
+footer{
+  color:black;
+  background-color: white;
+}
+
+.copyright{
+  background-color: white;
+}
+
+footer a{
+  text-decoration: none;
+  color: black !important;
+}
+
+.footer-section {
+  position: relative;
+  padding: 50px 0;
+}
+
+.footer-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+}
+
+.footer-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+}
+
+.footer-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1166px;
+}
+
+.footer-section-content .col {
+  padding-right: 50px;
+}
+
+.footer-section-content .col .footer-logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  /* background: linear-gradient(to right, #FFD700, #FFA500) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important; */
+}
+
+.footer-logo{
+  text-align: center;
+  margin-left: 30px;
+}
+
+.footer-section-content ul {
+  margin-left: 0;
+}
+
+.footer-section-content ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.footer-section-content ul li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-section-content .col #sn-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.copyright {
+  text-align: center;
+  position: relative;
+  padding: 25px 0;
+}
+
+.copyright::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+}
+
+.copyright p {
+  font-size: 14px;
+}
+
+
+.top {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
+
+.top:nth-child(2) {
+  bottom: 5.1rem;
+}
+
+.top:nth-child(3) {
+  bottom: 8.1rem;
+}
+
+.top:nth-child(4) {
+  bottom: 11.1rem;
+}
+
+.top:nth-child(5) {
+  bottom: 14.1rem;
+}
+
+
+
+.top i {
+  color: var(--text-color);
+  background: linear-gradient(315deg, rgba(49, 171, 187, 0.4) 0%, rgba(77, 180, 159, 0.9) 100%);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.top i:hover {
+  box-shadow: 0 0 10px rgba(77, 180, 159, 0.9);
+}
+
